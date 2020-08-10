@@ -1,0 +1,138 @@
+[
+  {
+    "description": "As Admin, I ahould be able to Log in",
+    "keyword": "Feature",
+    "name": "Registrasi Website bukalapak",
+    "line": 2,
+    "id": "registrasi-website-bukalapak",
+    "tags": [
+      {
+        "name": "@resgistration",
+        "line": 1
+      }
+    ],
+    "uri": "registrasi.feature",
+    "elements": [
+      {
+        "id": "registrasi-website-bukalapak;registrasi-using-valid-email",
+        "keyword": "Scenario",
+        "line": 7,
+        "name": "Registrasi using valid email",
+        "tags": [
+          {
+            "name": "@resgistration",
+            "line": 1
+          },
+          {
+            "name": "@PositiveTesting",
+            "line": 6
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 8,
+            "name": "I go to Web bukalapak",
+            "result": {
+              "status": "passed",
+              "duration": 11170000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "I click registration button",
+            "result": {
+              "status": "passed",
+              "duration": 6115000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "I Input username",
+            "result": {
+              "status": "passed",
+              "duration": 646000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "I Input email",
+            "result": {
+              "status": "passed",
+              "duration": 1708000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "I Chose gender",
+            "result": {
+              "status": "passed",
+              "duration": 279000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 13,
+            "name": "I Input bukalapak username",
+            "result": {
+              "status": "passed",
+              "duration": 1091000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 14,
+            "name": "I Input password",
+            "result": {
+              "status": "passed",
+              "duration": 1274000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 15,
+            "name": "I reinput password",
+            "result": {
+              "status": "passed",
+              "duration": 1039000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 16,
+            "name": "I check checkbox",
+            "result": {
+              "status": "passed",
+              "duration": 250000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 17,
+            "name": "I submit button",
+            "result": {
+              "status": "failed",
+              "duration": 97000000,
+              "error_message": "CypressError: Invalid position argument: `force`. Position may only be topLeft, top, topRight, left, center, right, bottomLeft, bottom, bottomRight.\n\nhttps://on.cypress.io/element-cannot-be-interacted-with\n    at $Cy.ensureValidPosition (https://www.bukalapak.com/__cypress/runner/cypress_runner.js:160061:22)\n    at Object.verify (https://www.bukalapak.com/__cypress/runner/cypress_runner.js:148933:10)\n    at perform (https://www.bukalapak.com/__cypress/runner/cypress_runner.js:150979:29)\n    at tryCatcher (https://www.bukalapak.com/__cypress/runner/cypress_runner.js:9956:23)\n    at Object.gotValue (https://www.bukalapak.com/__cypress/runner/cypress_runner.js:9098:18)\n    at Object.gotAccum (https://www.bukalapak.com/__cypress/runner/cypress_runner.js:9087:25)\n    at Object.tryCatcher (https://www.bukalapak.com/__cypress/runner/cypress_runner.js:9956:23)\n    at Promise._settlePromiseFromHandler (https://www.bukalapak.com/__cypress/runner/cypress_runner.js:7891:31)\n    at Promise._settlePromise (https://www.bukalapak.com/__cypress/runner/cypress_runner.js:7948:18)\n    at Promise._settlePromiseCtx (https://www.bukalapak.com/__cypress/runner/cypress_runner.js:7985:10)\n    at _drainQueueStep (https://www.bukalapak.com/__cypress/runner/cypress_runner.js:4667:12)\n    at _drainQueue (https://www.bukalapak.com/__cypress/runner/cypress_runner.js:4656:9)\n    at Async.../../node_modules/bluebird/js/release/async.js.Async._drainQueues (https://www.bukalapak.com/__cypress/runner/cypress_runner.js:4672:5)\n    at Async.drainQueues (https://www.bukalapak.com/__cypress/runner/cypress_runner.js:4542:14)\nFrom Your Spec Code:\n    at Context.eval (https://www.bukalapak.com/__cypress/tests?p=cypress\\integration\\registrasi.feature:58:24)\n    at Context.resolveAndRunStepDefinition (https://www.bukalapak.com/__cypress/tests?p=cypress\\integration\\registrasi.feature:10453:9)\n    at Context.eval (https://www.bukalapak.com/__cypress/tests?p=cypress\\integration\\registrasi.feature:9795:35)\nFrom Your Spec Code:\n    at Context.eval (https://www.bukalapak.com/__cypress/tests?p=cypress\\integration\\registrasi.feature:58:24)\n    at Context.resolveAndRunStepDefinition (https://www.bukalapak.com/__cypress/tests?p=cypress\\integration\\registrasi.feature:10453:9)\n    at Context.eval (https://www.bukalapak.com/__cypress/tests?p=cypress\\integration\\registrasi.feature:9795:35)"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

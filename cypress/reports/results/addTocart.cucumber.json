@@ -1,0 +1,117 @@
+[
+  {
+    "description": "As User, I should be able add to cahrt",
+    "keyword": "Feature",
+    "name": "search and add to cart sku from fabelio websites",
+    "line": 2,
+    "id": "search-and-add-to-cart-sku-from-fabelio-websites",
+    "tags": [
+      {
+        "name": "@addTocart",
+        "line": 1
+      }
+    ],
+    "uri": "addTocart.feature",
+    "elements": [
+      {
+        "id": "search-and-add-to-cart-sku-from-fabelio-websites;registrasi-using-valid-email",
+        "keyword": "Scenario",
+        "line": 7,
+        "name": "Registrasi using valid email",
+        "tags": [
+          {
+            "name": "@addTocart",
+            "line": 1
+          },
+          {
+            "name": "@PositiveTesting",
+            "line": 6
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 8,
+            "name": "I go to Web fabelio",
+            "result": {
+              "status": "passed",
+              "duration": 6435000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "I click search button",
+            "result": {
+              "status": "passed",
+              "duration": 513000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "I Input sku",
+            "result": {
+              "status": "passed",
+              "duration": 406000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "I waited suggestion shown",
+            "result": {
+              "status": "passed",
+              "duration": 728000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "I search that sku",
+            "result": {
+              "status": "passed",
+              "duration": 6885000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 13,
+            "name": "I waited result shown",
+            "result": {
+              "status": "passed",
+              "duration": 553000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 14,
+            "name": "I go to product detail page",
+            "result": {
+              "status": "failed",
+              "duration": 4367000000,
+              "error_message": "AssertionError: Timed out retrying: Expected to find element: `:nth-child(1) > [data-test=product] > :nth-child(3) > .css-6iq64g > .primary-image > img`, but never found it.\n    + expected - actual\n\n\n    at Context.eval (https://qa.fabelio.com/__cypress/tests?p=cypress\\integration\\addTocart.feature:79:6)\n    at Context.resolveAndRunStepDefinition (https://qa.fabelio.com/__cypress/tests?p=cypress\\integration\\addTocart.feature:10444:9)\n    at Context.eval (https://qa.fabelio.com/__cypress/tests?p=cypress\\integration\\addTocart.feature:9786:35)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 15,
+            "name": "I add to cart",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

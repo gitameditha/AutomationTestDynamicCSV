@@ -1,0 +1,37 @@
+{
+  "name": "at_web",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "clean-reports": "del -r cypress/reports/results/*.json cypress/reports/features cypress/reports/index.html",
+    "cypress": "./node_modules/.bin/cypress run",
+    "cypress-ui": "./node_modules/.bin/cypress open",
+    "reports": "node cypress/cypress_report.js",
+    "open-reports": "open 'cypress/reports/index.html'",
+    "convertCSVtoJSON": "ts-node cypress/fixtures/seed_data/parser.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^14.0.27",
+    "cypress": "^4.4.0",
+    "cypress-cucumber-preprocessor": "^2.5.3",
+    "cypress-dotenv": "^1.2.2",
+    "dotenv": "^8.2.0",
+    "multiple-cucumber-html-reporter": "^1.16.1",
+    "mysql": "^2.18.1",
+    "papaparse": "^5.2.0",
+    "ts-node": "^8.10.2",
+    "typescript": "^3.9.7"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true,
+    "cucumberJson": {
+      "generate": true,
+      "outputFolder": "cypress/reports/results",
+      "filePrefix": "",
+      "fileSuffix": ".cucumber"
+    }
+  },
+  "author": "gita",
+  "license": "ISC"
+}
