@@ -43,7 +43,51 @@ npm run cypress         #Running test case
 
 ## Structure
 ```
-
+Folder PATH listing for volume Bucket
+Volume serial number is D230-49A0
+D:.
+│   .env
+│   .gitignore
+│   cypress.json
+│   package-lock.json
+│   package.json
+│   README.md
+│   tree.txt
+│   
+└───cypress
+    │   cypress_report.js
+    │   
+    ├───fixtures
+    │   │   response_code.json
+    │   │   
+    │   └───seed_data
+    │           data.csv
+    │           dataFromCsv.json
+    │           data_seed.json
+    │           parser.ts
+    │           
+    ├───integration
+    │   │   addTocart.feature
+    │   │   
+    │   └───common
+    │           addTocart.js
+    │           
+    ├───plugins
+    │       index.js
+    │       
+    ├───reports
+    │   └───results
+    │           addTocart.cucumber.json
+    │           registrasi.cucumber.json
+    │           
+    ├───screenshots
+    ├───support
+    │       commands.js
+    │       index.js
+    │       
+    └───videos
+            registrasi.feature.mp4
+            
 ```
 
 
