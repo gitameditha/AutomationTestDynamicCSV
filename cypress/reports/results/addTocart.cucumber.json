@@ -34,77 +34,87 @@
             "arguments": [],
             "keyword": "Given ",
             "line": 8,
+            "name": "prepare for data",
+            "result": {
+              "status": "passed",
+              "duration": 236000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 9,
             "name": "I go to Web fabelio",
             "result": {
               "status": "passed",
-              "duration": 6435000000
+              "duration": 6731000000
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
-            "line": 9,
+            "line": 10,
             "name": "I click search button",
             "result": {
               "status": "passed",
-              "duration": 513000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 10,
-            "name": "I Input sku",
-            "result": {
-              "status": "passed",
-              "duration": 406000000
+              "duration": 571000000
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
             "line": 11,
-            "name": "I waited suggestion shown",
+            "name": "I Input sku",
             "result": {
               "status": "passed",
-              "duration": 728000000
+              "duration": 873000000
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
             "line": 12,
-            "name": "I search that sku",
+            "name": "I waited suggestion shown",
             "result": {
               "status": "passed",
-              "duration": 6885000000
+              "duration": 608000000
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
             "line": 13,
-            "name": "I waited result shown",
+            "name": "I search that sku",
             "result": {
               "status": "passed",
-              "duration": 553000000
+              "duration": 2404000000
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
             "line": 14,
-            "name": "I go to product detail page",
+            "name": "I waited result shown",
             "result": {
-              "status": "failed",
-              "duration": 4367000000,
-              "error_message": "AssertionError: Timed out retrying: Expected to find element: `:nth-child(1) > [data-test=product] > :nth-child(3) > .css-6iq64g > .primary-image > img`, but never found it.\n    + expected - actual\n\n\n    at Context.eval (https://qa.fabelio.com/__cypress/tests?p=cypress\\integration\\addTocart.feature:79:6)\n    at Context.resolveAndRunStepDefinition (https://qa.fabelio.com/__cypress/tests?p=cypress\\integration\\addTocart.feature:10444:9)\n    at Context.eval (https://qa.fabelio.com/__cypress/tests?p=cypress\\integration\\addTocart.feature:9786:35)"
+              "status": "passed",
+              "duration": 524000000
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
             "line": 15,
+            "name": "I go to product detail page",
+            "result": {
+              "status": "failed",
+              "duration": 4089000000,
+              "error_message": "AssertionError: Timed out retrying: Expected to find element: `:nth-child(1) > [data-test=product] > :nth-child(3) > .css-6iq64g > .primary-image > img`, but never found it.\n    + expected - actual\n\n\n    at Context.eval (https://qa.fabelio.com/__cypress/tests?p=cypress\\integration\\addTocart.feature:96:10)\n    at Context.resolveAndRunStepDefinition (https://qa.fabelio.com/__cypress/tests?p=cypress\\integration\\addTocart.feature:10463:9)\n    at Context.eval (https://qa.fabelio.com/__cypress/tests?p=cypress\\integration\\addTocart.feature:9805:35)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 16,
             "name": "I add to cart",
             "result": {
               "status": "skipped"

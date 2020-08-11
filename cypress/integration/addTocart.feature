@@ -5,6 +5,7 @@ As User, I should be able add to cahrt
 
 @PositiveTesting
 Scenario: Registrasi using valid email
+    Given prepare for data
     Given I go to Web fabelio
     When I click search button
     And I Input sku

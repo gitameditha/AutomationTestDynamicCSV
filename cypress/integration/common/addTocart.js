@@ -11,7 +11,20 @@ const suggestion = 'CESSI DINING CHAIR';
 const pdp = ':nth-child(1) > [data-test=product] > :nth-child(3) > .css-6iq64g > .primary-image > img';
 const addTocartButton = '#addToCart';
 
+
  
+
+
+Given('prepare for data', () => {
+
+  testData.forEach(el => {
+    
+    const datatest = {
+      data : el
+    
+    };
+    cy.log(datatest);
+  
 
 Given('I go to Web fabelio', () => {
 
@@ -60,7 +73,9 @@ Given('I go to Web fabelio', () => {
         cy.get(addTocartButton).click();
       })
 
- 
+    })
+
+    })
 
 
      
